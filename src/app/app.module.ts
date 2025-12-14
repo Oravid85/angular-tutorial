@@ -8,9 +8,9 @@ import { BrowserModule } from "@angular/platform-browser";
 import { ServerComponent } from "./server/server.component";
 
 @NgModule({
-  declarations: [App,ServerComponent],
+  declarations: [App, ],
   
-  imports: [BrowserModule, FormsModule],
+  imports: [BrowserModule, FormsModule, ServerComponent],
 
   providers: [
     provideBrowserGlobalErrorListeners(),
