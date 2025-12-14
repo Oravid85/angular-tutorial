@@ -8,5 +8,4 @@ import { RouterOutlet } from '@angular/router';
   standalone: false
 })
 export class App {
-  name = "Or"
 }
